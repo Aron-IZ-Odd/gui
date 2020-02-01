@@ -10,7 +10,7 @@ frame.pack()
 def value1():
 	q = float(num1.get())
 	d=float(5/9 * (q -32)); #Celsius
-	label1 = Label(root, text="The value enterd in celcious is: %.1f" % d).pack(side = BOTTOM)
+	label1 = Label(root, text="The value enterd in Celsius is: %.1f" % d).pack(side = BOTTOM)
 	return
 
 
@@ -18,7 +18,7 @@ def value2():
 	q=float(num1.get())
 	d = int(q); #Fehrenhiet
 	f = int(d * 9/5 + 32);
-	label1 = Label(root, text="The value entered in fehrenhiet is: %.1f" % f).pack(side = BOTTOM)
+	label1 = Label(root, text="The value entered in Fehrenhiet is: %.1f" % f).pack(side = BOTTOM)
 	return
 def value3():
 	q = float(num1.get())
@@ -26,6 +26,7 @@ def value3():
 	f = int(9.0 / 5.0)
 	t = int(f * d);
 	label1 = Label(root, text="The value entered in Kelvin is: %.1f" % t).pack(side = BOTTOM)
+
 
 
 
